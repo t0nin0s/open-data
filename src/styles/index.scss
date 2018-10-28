@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+@import './variables';
+@import './App';
+
+@import '../components/InfoPanel/InfoPanel-Style';
+@import '../components/Resources/Resources-Style';
+@import '../components/Tags/Tags-Style';

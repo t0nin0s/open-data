@@ -1,0 +1,55 @@
+.App {
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+}
+
+.App-header {
+  background-color: $indigo;
+  height: 8rem;
+  padding: 1rem;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  background-color: $steel;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resources {
+  flex: 2;
+}
+
+.tags {
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.tag {
+  color: $indigo-dark;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

@@ -1,0 +1,13 @@
+.resources {
+    padding: 1rem;
+    border: 1px solid $indigo-dark;
+    background-color: white;
+    border-radius: .25rem;
+}
+
+.resource {
+    &:not(:last-child) {
+        padding-bottom: .5rem;
+        border-bottom: 1px solid lightgrey;   
+    }
+}
