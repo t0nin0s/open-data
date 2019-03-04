@@ -1,4 +1,4 @@
-const OPEN_DATA_URL = 'https://data.gov.uk/api/action/package_show';
+const OPEN_DATA_URL = 'https://ckan.publishing.service.gov.uk/api/action/package_show';
 
 export const fetchData = async (argument: string): Promise<MetadataObj> => {
     return await fetch(`${OPEN_DATA_URL}?id=${argument}`, {
